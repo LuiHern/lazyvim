@@ -9,8 +9,8 @@ key.set("i", "jk", "<Esc>", { desc = "Escape Insert Mode" })
 key.set("n", "<S-Tab>", "<cmd>bprevious<cr>", { desc = "Prev Buffer" })
 key.set("n", "<Tab>", "<cmd>bnext<cr>", { desc = "Next Buffer" })
 
-key.set("n", "<S-h>", "^", { desc = "Go to the beginning of the line" }) --  go to start of line
-key.set("n", "<S-l>", "$", { desc = "Go to the end of the line" }) --  go to end of line
+key.set("n", "<S-h>", "^", { desc = "Go to the beginning of the line" })
+key.set("n", "<S-l>", "$", { desc = "Go to the end of the line" })
 
-key.set("n", "<C-d>", "<C-d>zz", { desc = "Page down and center line" }) --  go to end of line
-key.set("n", "<C-u>", "<C-u>zz", { desc = "Page up and center line" }) --  go to end of line
+key.set("n", "<C-d>", "<C-d>zz", { desc = "Page down and center line" })
+key.set("n", "<C-u>", "<C-u>zz", { desc = "Page up and center line" })
