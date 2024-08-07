@@ -14,3 +14,5 @@ key.set("n", "<S-l>", "$", { desc = "Go to the end of the line" })
 
 key.set("n", "<C-d>", "<C-d>zz", { desc = "Page down and center line" })
 key.set("n", "<C-u>", "<C-u>zz", { desc = "Page up and center line" })
+
+key.set("n", "<esc><esc>", "<cmd>nohl<cr>", { desc = "Remove search highlights" })
